@@ -1,7 +1,7 @@
 # BasicFileProcess
 Basic way to deal wtih file
 
-* Learning Goals
+Learning Goals
 - Practice open file
 - Pracitve checking if file is open
 - Practice read data in file
