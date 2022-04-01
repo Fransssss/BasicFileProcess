@@ -18,7 +18,7 @@ int main() {
     string file;                                                // extract data from file
     int numFile = 0;                                            // to number the file
 
-    in.open("myFile.txt");                                   // open file
+    in.open("myFile.txt");                                      // open file
     if(!in.is_open())                                           // check if file is open
     {
         cout << " File cannot be opened " << endl;
@@ -27,7 +27,7 @@ int main() {
 
     cout << "Reading file ... " << endl << endl;
 
-    getline(in, file);                                   // extract data from file
+    getline(in, file);                                         // extract data from file
     while(!in.fail())                                           // makes sure no error while reading from file
     {
         numFile++;
